@@ -1,8 +1,8 @@
 #include <unistd.h>
 
 /**
- * main -  this will print the input on it
- * return: always should be 1.
+ * main -  this prints the input on it
+ * return: always 1.
  */
 
 int main(void)

@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main -  this will print the input on it
- * return: always should be 0.
+ * main -  this prints the input on it
+ * return: always 0.
  */
 
 int main(void)
-{	char a;
+{
+	char a;
 	int b;
 	long int c;
 	long long int d;
