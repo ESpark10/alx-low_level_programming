@@ -5,10 +5,9 @@
 
 /* main - this prints the correct arguement met*/
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 		int n;
