@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * this is a main function
- * always return 0
+ * main -  this will print the input on it
+ * return: always should be 0.
  */
 
 int main(void) {
