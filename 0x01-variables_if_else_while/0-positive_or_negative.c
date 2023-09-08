@@ -4,7 +4,11 @@
 /* more headers goes there */
 
 /* main - this prints the correct arguement met*/
-/* main function - prints the met argument*/
+/**
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
 int main(void)
 {
 		int n;
