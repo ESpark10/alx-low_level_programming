@@ -2,9 +2,9 @@
 
 /**
  * main -  this will print the input on it
- * return: always 0.
+ * return: always be 0.
  */
-int main(void)
+int main(void);
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
