@@ -2,7 +2,7 @@
 
 /**
  * main -  this prints the input on it
- * return: always 0.
+ * return: always give 0 on success
  */
 
 int main(void)
