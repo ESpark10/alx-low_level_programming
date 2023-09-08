@@ -4,6 +4,7 @@
 /* more headers goes there */
 
 /* main - this prints the correct arguement met*/
+/* main function - prints the met argument*/
 int main(void)
 {
 		int n;
