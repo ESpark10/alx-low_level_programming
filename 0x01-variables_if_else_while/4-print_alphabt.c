@@ -17,15 +17,17 @@ int main()
         if (x == 'e')
         {
         continue;
-putchar(x);
-       }
+	x++;
+	}
             if (x == 'q')
         {
         continue;
+	x++;
         }
 putchar(x);
 
 }
+putchar('\n');
 
 
     return (0);
