@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
-*this is a comment
 *main - this prints input
 *Return: 0 success
 */
