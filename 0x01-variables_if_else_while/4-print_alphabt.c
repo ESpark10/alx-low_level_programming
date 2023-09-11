@@ -1,33 +1,31 @@
 #include <stdio.h>
 
 /**
-this is a comment
-main - entry point
-Return: 0 success
+* this is a comment
+* main - entry point
+* Return: 0 success
 */
 
 int main(void)
 {
-   char x;
-
-   for(x = 'a'; x <= 'z'; x++)
+	char x;
+	
+	for(x = 'a'; x <= 'z'; x++)
 {
-
-        if (x == 'e')
+		if (x == 'e')
         {
-        continue;
-	x++;
+		continue;
+		x++;
 	}
-            if (x == 'q')
+		if (x == 'q')
         {
-        continue;
-	x++;
+		continue;
+		x++;
         }
 putchar(x);
 
 }
 putchar('\n');
 
-
-    return (0);
+		return (0);
 }
