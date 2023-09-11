@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
 this is a comment
 main - entry point
 Return: 0 success
 */
 
-int main()
+int main(void)
 {
 
    char x;
