@@ -1,19 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
-*this is a comment
-*main - entry point
-*Return: 0 success
+*main - this  should print input
+*Return: 0 on  success
 */
-int main()
+
+
+int main(void)
 {
 
-
-
-int x;
-	for (x = 0; x < 10; x++)
-		printf("%d\n", x);
-	
+	int x;
+		for (x = 0; x < 10; x++)
+			printf("%d", x);
 	return (0);
 }
