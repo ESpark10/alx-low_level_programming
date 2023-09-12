@@ -5,12 +5,12 @@
 *Return: 0 success
 */
 
-int main()
+int main(void)
 {
 	char x;
 		for (x = 'z'; x >= 'a'; x--)
-		putchar(x);
-	
+			putchar(x);
+
 	return (0);
 }
 
