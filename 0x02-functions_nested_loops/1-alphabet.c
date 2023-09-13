@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - prints the input
- * 
- * no Reaturn values
- */
-
+ *print_alphabet - prints the input
+ *no Reaturn values
+*/
 
 void print_alphabet(void)
 {
