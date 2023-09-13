@@ -1,14 +1,11 @@
 int _putchar(char c);
 
-
 /**
 *main - entry point
 *Return: 0 success
 */
 
-
 int main(void)
-
 {
 	_putchar('_');
 	_putchar('p');
@@ -19,6 +16,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	
 	return (0);
 }
