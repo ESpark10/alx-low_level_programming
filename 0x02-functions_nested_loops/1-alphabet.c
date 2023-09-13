@@ -1,29 +1,15 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
-
 /**
- * main - check the code
+ * main - this prints the function
  *
  * Return: Always 0.
  */
 
 
-
 void print_alphabet(void)
 {
-	int x;
-		for (x = 'a'; x <= 'z'; x++)
-			{
-			_putchar(x);
-			}
-}
-
-	int main(void)
-{
-	
-	print_alphabet();
-	_putchar('\n')
-	return (0);
-
+	char x;
+	for (x = 'a'; x <= 'z'; x++)
+		_putchar(x);
+	_putchar('\n');
 }
