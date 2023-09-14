@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - check for lowercase letters
+ * _isdigit - check for digits only
  *
  * @c: (char) The character to be checked.
  *
@@ -10,7 +10,7 @@
 
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= '0' && c <= '9')
 		return (1);
 	else
 		return (0);
