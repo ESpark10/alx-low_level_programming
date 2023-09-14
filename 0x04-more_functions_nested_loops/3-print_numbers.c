@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_numbers - check for lowercase letters
+ * print_numbers - prints the out put
  *
- * Return: 1 if the statement is true while 0 if otherwise
+ * Return: 0 always
  */
 
 void print_numbers(void)
