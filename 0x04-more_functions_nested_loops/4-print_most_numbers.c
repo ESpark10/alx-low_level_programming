@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * print_most_numbers - print the input result
  *
  * Return: On success 0.
  */
@@ -10,6 +9,7 @@
 void print_most_numbers(void)
 {
 	int x;
+	
 	for (x = 0; x <= 9; x++)
 	{
 		if (x == 2 || 4)
