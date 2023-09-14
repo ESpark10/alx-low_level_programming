@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - check for lowercase letters
+ * _isupper - check for lowercase letters
  *
- * @c: (char) The character to be checked.
+ * @c: (char) The character to check
  *
  * Return: 1 if the statement is true while 0 if otherwise
  */
