@@ -2,7 +2,8 @@
 
 /**
  *_strcat - concatonates theimput to output
- * @c: The character to print
+ * @dest: reccieve input
+ * @src: appends to dest
  *
  * Return: On success 0
  */
@@ -10,6 +11,7 @@
 char *_strcat(char *dest, char *src)
 {
 	char *mydest = dest;
+
 	while (*dest != '\0')
 	{
 		dest++;
@@ -20,6 +22,7 @@ char *_strcat(char *dest, char *src)
 		dest++;
 		src++;
 	}
+
 	*dest = ('\0');
 
 	return (mydest);
