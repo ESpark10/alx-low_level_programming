@@ -1,9 +1,28 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
+ *_strcat - concatonates theimput to output
  * @c: The character to print
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: On success 0
  */
+
+char *_strcat(char *dest, char *src)
+{
+	char *mydest = dest;
+	while (*dest != '\0')
+	{
+		dest++;
+	}
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = ('\0');
+
+	return (mydest);
+
+
+}
