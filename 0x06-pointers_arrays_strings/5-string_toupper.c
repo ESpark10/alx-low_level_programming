@@ -8,7 +8,7 @@
  * Return: On success 1.
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *)
 {
 	char *eli = str;
 
