@@ -1,9 +1,24 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _strcmp -  compares input
+ *
+ *@s1:this is an input to be compared with s2
+ *
+ *@s2:this is an input to be ompared with s1
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
  */
+int _strcmp(char *s1, char *s2)
+{
+	while (*s1 != '\0' && *s2 != '\0')
+	{
+		if (*s1 != *s2)
+		{
+			return (*s1 - *s2);
+		}
+		s1++;
+		s2++;
+	}
+	return (*s1 - *s2);
+}
